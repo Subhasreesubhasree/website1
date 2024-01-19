@@ -1,0 +1,171 @@
+*{
+    padding:0px;
+    margin:10px 2px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    background-image:url(images/img1.png );
+    width:100%;
+    height: 100%;
+}
+.odd,img{
+    display: inline-block;
+    font-size: 20px;
+}
+.even{
+   display: inline-block;
+   padding-left: 55%;
+}
+.even,a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(219, 21, 70);
+    color:purple;
+}
+
+.prime{
+    margin-top: 11%;
+    text-align:center;
+    font-size: 40px;
+}
+.composite{
+    margin-top:5%;
+   
+    text-align: center;
+}
+.god{
+    text-align: center;
+    margin-top:70px;
+}
+.good,dl,dd{
+    display:inline-block;
+    margin:30px 25px;
+   background-color:rgb(252, 166, 209);
+}
+
+.good:hover{
+    box-shadow: 5px 5px 5px 5px #888;
+}
+.better{
+    text-align: center;
+    margin-top:70px;
+}
+.container {
+    position: relative;
+   
+    max-width: 35%;
+    display: inline-block;
+    margin:0px 40px;
+    margin-top: 4%;
+   
+  }
+ 
+  
+  .image {
+   display: flex;
+   flex-direction: row;
+    width: 90%;
+   height: 80%;
+   
+  
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 90%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding:190px 18px;
+    text-align: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .best{
+    text-align: center;
+    margin-top: 5%;
+  }
+  .demon{
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 3%;
+   
+    border-color: black;
+    border-style: groove;
+  }
+  .demon:hover{
+    background-color:ghostwhite;
+    box-shadow: 5px 5px 5px 5px #888;
+    transform:scale(1.09);
+        z-index:1;
+}
+.devil{
+    text-align: center;
+    margin-top:7%;
+}
+.angel{
+    margin-top:4%;
+    font-size: 14px;
+    display: inline-block;
+    border-color: black;
+    border-style: groove;
+    margin-left: 5%;
+    background-color:rgb(250,82,82);
+}
+.subha{
+    width:100%;
+    margin-top: 5%;
+   margin-left:3%;
+}
+.container{
+    font-size: 30px;
+   
+   
+   text-align: center;
+   position: relative;
+}
+.subha{
+    position: absolute;
+    text-align: center;
+  top: 40%;
+  left: 25%;
+  transform: translate(50%, -50%);
+}
+.sree{
+
+    text-align: center;
+    font-size: 35px;
+    margin-top:4%;   
+}
+.rome{
+   margin-top: 5%;
+   text-align: center;
+   display:flex;
+   flex-direction: row;
+}
+#korea{
+    margin-top: 3%;
+    margin-left: 3%;
+   display: flex;
+}
+.china{
+    margin-left:15%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+   
+
+  
+
